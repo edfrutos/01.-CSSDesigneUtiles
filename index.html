@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=ul, initial-scale=1.0">
+  <title>Código CSS y diseños que pueden ser útiles</title>
+  <!-- Librerías Prism: -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.21.0/prism.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.21.0/themes/prism.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./VenFragCod.css">
+  <style>
+    .code-window {
+      margin-bottom: 20px;
+    }
+
+    .code-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #f1f1f1;
+      padding: 8px;
+    }
+
+    .code-input {
+      width: 100%;
+      height: 200px;
+      border: none;
+      resize: none;
+      padding: 8px;
+      font-family: Consolas, monospace;
+    }
+
+    .code-window pre {
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <ul>
+    <li>Crear un botón redondo con CSS:</li>
+  </ul>
+  <!-- INICIO Código para ventana fragmento con copy -->
+  <div class="code-window">
+    <div class="code-header">
+      <span>Code CSS</span>
+      <button class="copy-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+          <path fill="none" d="M0 0h24v24H0z" />
+          <path
+            d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z" />
+        </svg>
+        <span>Copy Code</span>
+      </button>
+    </div>
+    <pre><code class="code-input language-css">
+          button {
+            border-radius: 50%;
+            padding: 1em;
+            background-color: blue;
+            color: white;
+          }
+        </code></pre>
+  </div>
+  <!-- FIN Código para ventana fragmento con copy -->
+
+  <ul>
+    <li>Aplicar un efecto hover en un elemento:</li>
+  </ul>
+  <!-- INICIO Código para ventana fragmento con copy -->
+  <div class="code-window">
+    <div class="code-header">
+      <span>Code CSS</span>
+      <button class="copy-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+          <path fill="none" d="M0 0h24v24H0z" />
+          <path
+            d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z" />
+        </svg>
+        <span>Copy Code</span>
+      </button>
+    </div>
+    <pre><code class="code-input language-css">
+          a:hover {
+            color: red;
+          }
+        </code></pre>
+  </div>
+  <!-- FIN Código para ventana fragmento con copy -->
+
+  <ul>
+    <li>Crear un diseño de cuadrícula con CSS Grid:</li>
+  </ul>
+  <!-- INICIO Código para ventana fragmento con copy -->
+  <div class="code-window">
+    <div class="code-header">
+      <span>Code CSS</span>
+      <button class="copy-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+          <path fill="none" d="M0 0h24v24H0z" />
+          <path
+            d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z" />
+        </svg>
+        <span>Copy Code</span>
+      </button>
+    </div>
+    <pre><code class="code-input language-css">
+          .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+          }
+        </code></pre>
+  </div>
+  <!-- FIN Código para ventana fragmento con copy -->
+
+  <ul>
+    <li>Utilizar media queries para cambiar el estilo en diferentes tamaños de pantalla:</li>
+  </ul>
+  <!-- INICIO Código para ventana fragmento con copy -->
+  <div class="code-window">
+    <div class="code-header">
+      <span>Code CSS</span>
+      <button class="copy-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+          <path fill="none" d="M0 0h24v24H0z" />
+          <path
+            d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z" />
+        </svg>
+        <span>Copy Code</span>
+      </button>
+    </div>
+    <pre><code class="code-input language-css">
+          @media screen and (max-width: 600px) {
+            body {
+              font-size: 16px;
+            }
+          }
+        </code></pre>
+  </div>
+  <!-- FIN Código para ventana fragmento con copy -->
+
+  <ul>
+    <li>Crear una animación con CSS:</li>
+  </ul>
+  <!-- INICIO Código para ventana fragmento con copy -->
+  <div class="code-window">
+    <div class="code-header">
+      <span>Code CSS</span>
+      <button class="copy-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+          <path fill="none" d="M0 0h24v24H0z" />
+          <path
+            d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z" />
+        </svg>
+        <span>Copy Code</span>
+      </button>
+    </div>
+    <pre><code class="code-input language-css">
+          @keyframes example {
+            from {
+              background-color: red;
+            }
+            to {
+              background-color: yellow;
+            }
+          }
+          
+          .box {
+            animation-name: example;
+            animation-duration: 4s;
+          }
+        </code></pre>
+  </div>
+  <!-- FIN Código para ventana fragmento con copy -->
+
+  <ul>
+    <li>Crear un menú desplegable:</li>
+  </ul>
+  <!-- INICIO Código para ventana fragmento con copy -->
+  <div class="code-window">
+    <div class="code-header">
+      <span>Code CSS</span>
+      <button class="copy-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+          <path fill="none" d="M0 0h24v24H0z" />
+          <path
+            d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z" />
+        </svg>
+        <span>Copy Code</span>
+      </button>
+    </div>
+    <pre><code class="code-input language-css">
+          .dropdown {
+            position: relative;
+            display: inline-block;
+          }
+          
+          .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+          }
+          
+          .dropdown:hover .dropdown-content {
+            display: block;
+          }
+        </code></pre>
+  </div>
+  <!-- FIN Código para ventana fragmento con copy -->
+
+  <ul>
+    <li>Crear una barra de progreso:</li>
+  </ul>
+  <!-- INICIO Código para ventana fragmento con copy -->
+  <div class="code-window">
+    <div class="code-header">
+      <span>Code CSS</span>
+      <button class="copy-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+          <path fill="none" d="M0 0h24v24H0z" />
+          <path
+            d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z" />
+        </svg>
+        <span>Copy Code</span>
+      </button>
+    </div>
+    <pre><code class="code-input language-css">
+          .progress-bar {
+            width: 50%;
+            background-color: #4CAF50;
+            height: 30px;
+          }
+          
+          .progress {
+            width: 100%;
+            height: 30px;
+            background-color: #ddd;
+          }
+        </code></pre>
+  </div>
+  <!-- FIN Código para ventana fragmento con copy -->
+
+  <ul>
+    <li>Crear un carrusel de imágenes:</li>
+  </ul>
+  <!-- INICIO Código para ventana fragmento con copy -->
+  <div class="code-window">
+    <div class="code-header">
+      <span>Code CSS</span>
+      <button class="copy-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+          <path fill="none" d="M0 0h24v24H0z" />
+          <path
+            d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z" />
+        </svg>
+        <span>Copy Code</span>
+      </button>
+    </div>
+    <pre><code class="code-input language-css">
+          .carousel {
+            position: relative;
+            width: 100%;
+            height: 500px;
+            overflow: hidden;
+          }
+          
+          .carousel img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        </code></pre>
+  </div>
+  <!-- FIN Código para ventana fragmento con copy -->
+
+  <!-- Código JavaScript para copiar el contenido -->
+  <script>
+    const copyButtons = document.querySelectorAll('.copy-btn');
+    copyButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const codeElement = button.parentNode.nextElementSibling.querySelector('code');
+        const code = codeElement.innerText;
+
+        navigator.clipboard.writeText(code)
+          .then(() => {
+            button.querySelector('span').textContent = 'Copied!';
+            setTimeout(() => {
+              button.querySelector('span').textContent = 'Copy Code';
+            }, 1500);
+          })
+          .catch(err => {
+            console.error('Failed to copy code: ', err);
+          });
+      });
+    });
+  </script>
+</body>
+
+</html>
