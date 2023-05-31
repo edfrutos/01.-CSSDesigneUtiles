@@ -1,6 +1,7 @@
+# Estructura de ventanas
 Estructura de ventanas para fragmentos de código con opción de copia de fragmento en cualquiera de las ventanas.
 Realizada con los estilos básicos para poderse amoldar mejor a las características del HTML donde se vaya a instalar.
-Llegado el momento de utilizar los estilos sugeridos, tener  muy encuenta los 'id' y 'class'
+Llegado el momento de utilizar los estilos sugeridos, tener  muy encuentra los 'id' y 'class'
 Una opción de estilos básicos pero con algo de diseño sería:
 
 ```css
